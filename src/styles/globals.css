@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-800;
+}
+
+.table-available {
+  @apply border-green-500 bg-green-100;
+}
+
+.table-occupied {
+  @apply border-red-500 bg-red-100;
+}
+
+.table-reserved {
+  @apply border-yellow-500 bg-yellow-100;
+}
